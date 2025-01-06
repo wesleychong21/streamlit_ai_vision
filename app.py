@@ -73,7 +73,7 @@ def draw_boxes(image, prediction, confidence_threshold=0.5):
     return img_np, detections
 
 # Streamlit app
-st.title("Object Detection with COCO Dataset")
+st.title("Image Object Detection")
 
 # Load model
 model = load_model()
